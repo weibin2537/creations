@@ -1,1 +1,1 @@
-# creations
+This is a Google Chrome plugin that automatically grabs CAPTCHA based on login page elements and calls a local self-trained python model interface for CAPTCHA image recognition, automatically locates the CAPTCHA input box, and automatically triggers login.Incidentally, the file also contains the model training script and the corresponding .pth model file
