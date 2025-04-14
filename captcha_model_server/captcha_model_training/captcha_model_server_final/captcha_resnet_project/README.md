@@ -11,7 +11,7 @@
 
     python train.py --backbone cnn
 
-3. 使用 ResNet18 模型训练（推荐）：
+3. 使用 ResNet18 模型训练：
 
     python train.py --backbone resnet
 
