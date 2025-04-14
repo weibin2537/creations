@@ -1,8 +1,0 @@
-2025/04/10 11:16:49 [1;34m[I] [service.go:304] [cedf5a340469f346] login to server success, get run id [cedf5a340469f346], server udp port [0][0m
-2025/04/10 11:16:49 [1;34m[I] [proxy_manager.go:144] [cedf5a340469f346] proxy added: [frontend backend][0m
-2025/04/10 11:16:49 [1;34m[I] [control.go:180] [cedf5a340469f346] [backend] start proxy success[0m
-2025/04/10 11:16:49 [1;34m[I] [control.go:180] [cedf5a340469f346] [frontend] start proxy success[0m
-2025/04/10 14:48:14 [1;31m[E] [proxy.go:797] [cedf5a340469f346] [backend] connect to local service [localhost:8080] error: dial tcp 172.24.80.1:8080: connect: connection refused[0m
-2025/04/10 14:48:14 [1;31m[E] [proxy.go:797] [cedf5a340469f346] [backend] connect to local service [localhost:8080] error: dial tcp 172.24.80.1:8080: connect: connection refused[0m
-2025/04/10 14:49:07 [1;31m[E] [proxy.go:797] [cedf5a340469f346] [backend] connect to local service [localhost:8080] error: dial tcp 172.24.80.1:8080: connect: connection refused[0m
-2025/04/10 15:41:02 [1;31m[E] [proxy.go:797] [cedf5a340469f346] [backend] connect to local service [localhost:8080] error: dial tcp 172.24.80.1:8080: connect: connection refused[0m
