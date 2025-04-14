@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Auto Captcha Solver FINAL",
+  "version": "1.0",
+  "description": "验证码识别插件：调用本地 ResNet 模型服务识别 base64 图像",
+  "permissions": ["storage"],
+  "host_permissions": ["http://localhost:5002/*"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
